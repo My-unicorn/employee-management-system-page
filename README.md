@@ -20,10 +20,9 @@ Git clone this repo and add a config file in the /utils folder to add your datab
     "database": "employee_db"
 }
 Usage
-Run npm install to grab mysql2 and inquirer.
+Run npm install to grab mysql and inquirer.
 
-Run node index.js.
-
+Run node index.js. or npm start 
 
 
 
