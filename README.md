@@ -1,5 +1,5 @@
 
-Employee Tracker
+###Employee Tracker
 
 [![Bash Shell](https://badges.frapsoft.com/bash/v1/bash.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
@@ -10,8 +10,14 @@ Manage your employee database using NodeJS Inquirer. Allows for all CRUD operati
 
 ![ Employee Tracker Demo](tracker-homework-working.gif)
 
-Installation
+
+
+
+
+###Installation
 Git clone this repo and add a config file in the /utils folder to add your database connection details. Use either the config_template.json file (and rename it) or copy the snippet below.
+
+
 
 {
     "user": "root",
@@ -19,17 +25,22 @@ Git clone this repo and add a config file in the /utils folder to add your datab
     "host": "localhost",
     "database": "employee_db"
 }
-Usage
+
+
+
+###Usage
 Run npm install to grab mysql and inquirer.
 
-Run node index.js. or npm start 
+
+
+###Run node index.js. or npm start. 
 
 
 
-How do you deliver this? Here are some guidelines:
+###How do you deliver this? Here are some guidelines:
 
 
-Use the MySQL NPM package to connect to your MySQL database and perform queries.
+###Use the MySQL NPM package to connect to your MySQL database and perform queries.
 
 
 Use InquirerJs NPM package to interact with the user via the command-line.
